@@ -1,0 +1,16 @@
+{
+  "extends": "../standard.tsconfig.json",
+  "compilerOptions": {
+    "target": "ES6",
+    "jsx": "react",
+    "noEmit": false
+  },
+  "include": [
+    "src",
+    "./src/stories/components/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
